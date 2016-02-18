@@ -1,0 +1,123 @@
+.para
+{
+    color: #fff;
+    margin-left: 100px;
+}
+.login {
+    background: #eceeee;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    height: 280px;
+    margin: 120px auto 0;
+    width: 298px;
+}
+.loginRegister {
+    background: #eceeee;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    height: 390px;
+    margin: 20px auto 0;
+    width: 298px;
+}
+input {
+    border: 1px solid #a1a3a3;
+    border-radius: 4px;
+    box-shadow: 0 1px #fff;
+    box-sizing: border-box;
+    color: #696969;
+    height: 39px;
+    margin: 22px 0 0 29px;
+    padding-left: 37px;
+    transition: box-shadow 0.3s;
+    width: 240px;
+}
+.forgot{
+    padding: 0px 10px 10px 155px;
+}
+.submit, .register {
+    width:240px;
+    height:35px;
+    display:block;
+    font-family:Arial, "Helvetica", sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-align:center;
+    text-shadow:1px 1px 0px #37a69b;
+    padding-top:4px;
+    margin: 25px 0 0 30px;
+    position:relative;
+    cursor:pointer;
+    border: none;
+    background-color: #37a69b;
+    background-image: linear-gradient(top,#3db0a6,#3111);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius:5px;
+
+}
+
+/*Nav css */
+
+.nav {
+    background-color:#add8e6;
+    margin-top:20px ;
+}
+
+
+.nav ul {
+    list-style: none;
+    background-color: #add8e6;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+}
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #005f5f;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+.nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+.nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+.nav li {
+      float: left;
+    }
+.nav ul {
+      overflow: auto;
+      width: 600px;
+      margin: 0 auto;
+    }
+
